@@ -15,13 +15,13 @@ function MainLayout() {
           <Route path="/home" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/" element={<Navigate to="/home" />} />
         </Routes>
       </main>
       <Footer />
     </>
   );
 }
-
 function App() {
   return (
     <BrowserRouter>
