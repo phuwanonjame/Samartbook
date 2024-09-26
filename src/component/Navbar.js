@@ -22,6 +22,7 @@ function Navbar() {
             </li>
             <li className="text-white text-base md:text-lg font-semibold cursor-pointer hover:text-gray-300 transition duration-300">
               <Link to="/Login">Login</Link>
+             
             </li>
           </ul>
         </div>

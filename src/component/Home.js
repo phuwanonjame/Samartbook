@@ -88,7 +88,7 @@ function Home() {
           <div className="bg-[#035dd3] p-6 md:p-8 w-full max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-4xl rounded-xl shadow-2xl">
             <div className="flex flex-col justify-center items-center space-y-4">
               <span className="text-lg md:text-2xl lg:text-3xl text-white font-bold text-center">
-                ค้นหาหนังสือและทรัพยากรสารสนเทศอื่นๆ
+               ระบบค้นหาข้อมูลพนักงาน
               </span>
               <form
                 onSubmit={handleSearchSubmit}
